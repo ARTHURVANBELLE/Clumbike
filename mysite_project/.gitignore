@@ -1,0 +1,51 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+/static/
+media/
+
+# .env file for environment variables
+.env
+
+# IDEs and text editor files
+.vscode/
+.idea/
+
+# Django migrations
+*/migrations/*
+
+# Coverage directory for testing
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# MySQL, PostgreSQL, or SQLite database files (if you're using them locally)
+*.sqlite3
+*.db
